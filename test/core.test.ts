@@ -1,0 +1,1 @@
+import {expect,it} from 'vitest';import {completeValue} from '../src/index.js';it('completes a value',async()=>expect(await completeValue({kind:'named'},3)).toBe(3));
